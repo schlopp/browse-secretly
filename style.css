@@ -14,6 +14,7 @@ h1{
   border-width: 4px;
   border-color:aquamarine;
   border-bottom-color:aqua;
+  transition: 5s ease-in;
 }
 .Voorbeelden{
   color:green;
