@@ -1,18 +1,17 @@
-h1{
-  background-color:mediumseagreen;
-  padding: 10px;
-  text-align: center;
-  font-family: Roboto;
-  border-style:solid;
-  border-width: 4px;
-  border-color:aquamarine;
-  border-bottom-color:aqua;
-}
 body {
   text-align: center;
   font-family: Roboto;
   color: #212121;
   line-height: 1.6;
+}
+h1{
+  background-color:mediumseagreen;
+  padding: 10px;
+  text-align: center;
+  border-style:solid;
+  border-width: 4px;
+  border-color:aquamarine;
+  border-bottom-color:aqua;
 }
 .Voorbeelden{
   color:green;
