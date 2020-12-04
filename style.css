@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+h1{
+  background-color:mediumseagreen;
+  padding: 10px;
+  text-align: center;
+  font-family: Roboto;
+  border-style:solid;
+  border-width: 4px;
+  border-color:aquamarine;
+  border-bottom-color:aqua;
+}
 body {
   text-align: center;
   font-family: Roboto;
   color: #212121;
   line-height: 1.6;
-}
-h1{
-  background-color:mediumseagreen;
-  padding: 10px;
-  text-align: center;
-  border-style:solid;
-  border-width: 4px;
-  border-color:aquamarine;
-  border-bottom-color:aqua;
-  transition: 5s ease-in;
 }
 .Voorbeelden{
   color:green;
@@ -28,14 +26,30 @@ h1{
 }
 .button:hover{
   background-color: red;
+  cursor: pointer;
 }
 .links{
   text-align: left;
+  cursor: copy;
 }
 .links span:hover::after{
-  content: "(click to copy)";
+  content: "(click to copy, shift click to visit)";
   color: grey;
   text-align: left;
   line-height: 0;
   font-size: 10px;
+}
+.obama_add{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  right: 0;
+  bottom: 0;
+  transition: 100ms ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+.obama_add:hover{
+  transform: scale(1.1)
 }
